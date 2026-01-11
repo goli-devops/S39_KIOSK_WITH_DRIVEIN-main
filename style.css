@@ -88,14 +88,14 @@ th {
   color: whitesmoke;
 }
 .logo {
-  width: 250px;
+  width: 200px;
 }
 
 .bg-logo {
   position: fixed;
   right: 0;
   top: 0;
-  height: 90%;
+  height: 100%;
   z-index: -1;
 }
 
@@ -208,4 +208,5 @@ th {
     font-weight: 700;
   }
 }
+
 
