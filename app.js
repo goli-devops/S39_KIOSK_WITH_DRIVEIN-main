@@ -92,30 +92,30 @@ setInterval(() => {
     driveinWeekendElement.style.display = "none"
   }
 
-//   // Show ONP (Overnight Promo) from 8:00pm to 5:59am, Sunday to Friday
-//   if (
-//     // Sunday 9:00pm to midnight
-//     (currentDay === 1 && currentHour >= 18) ||
-//     // Monday to Thursday 9:00pm to midnight
-//     (currentDay >= 1 && currentDay <= 4 && currentHour >= 18) ||
-//     // Monday to Friday 12:00am to 5:59am
-//     (currentDay >= 1 && currentDay <= 5 && currentHour < 6)
-//   ) {
-//     regularTen.style.display = "none"
-//     driveinRegularTen.style.display = "none"
-//     onp.style.display = "table-row"
-//     // sixPro.style.display = "none"
-//     // driveinSix.style.display = "none"
-//     driveInOnp.style.display = "table-row"
-//   } else {
-//     onp.style.display = "none"
-//     // sixPro.style.display = "table-row"
-//     // driveinSix.style.display = "table-row"
-//     driveInOnp.style.display = "none"
-//     regularTen.style.display = "table-row"
-//     driveinRegularTen.style.display = "table-row"
-//   }
-// }, 1000) // Update every second
+  // Show ONP (Overnight Promo) from 8:00pm to 5:59am, Sunday to Friday
+  if (
+    // Sunday 9:00pm to midnight
+    (currentDay === 1 && currentHour >= 18) ||
+    // Monday to Thursday 9:00pm to midnight
+    (currentDay >= 1 && currentDay <= 4 && currentHour >= 18) ||
+    // Monday to Friday 12:00am to 5:59am
+    (currentDay >= 1 && currentDay <= 5 && currentHour < 6)
+  ) {
+    regularTen.style.display = "none"
+    driveinRegularTen.style.display = "none"
+    onp.style.display = "table-row"
+    // sixPro.style.display = "none"
+    // driveinSix.style.display = "none"
+    driveInOnp.style.display = "table-row"
+  } else {
+    onp.style.display = "none"
+    // sixPro.style.display = "table-row"
+    // driveinSix.style.display = "table-row"
+    driveInOnp.style.display = "none"
+    regularTen.style.display = "table-row"
+    driveinRegularTen.style.display = "table-row"
+  }
+}, 1000) // Update every second
 
 // DRIVEIN FUNCTIONS
 
@@ -158,6 +158,7 @@ document.addEventListener("click", function () {
 // document.addEventListener("contextmenu", function (e) {
 //   e.preventDefault()
 // })
+
 
 
 
